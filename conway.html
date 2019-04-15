@@ -33,11 +33,16 @@
 						<div class="inner">
 							<h1 class="major">Conway's Game of Life</h1>
 							<!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
-							<p>blah blah blah</p>
-							<!--<div id='root'></div>
-  							<script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js'></script>
-							<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.6/umd/react-dom.production.min.js'></script>
-							<script  src="assets/js/game.js"></script>-->
+							<p>Conway's Game of Life is a pattern generating game. That patterns exist on a grid, where cells in the grid are either 'alive' or 'dead'. Based on the current state of the grid, the next generation will be generated based on certain rules about the cells and their neighbors in the current state of the grid.</p>
+							<ol>Here are the rules (from <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Wikipedia</a>):
+								<li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+								<li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+								<li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+								<li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+							</ol>
+
+							<p>I implemented the game using the JavaScript and React.<br><br>The app will automatically loaded with a randomly seeded initial state and start generating successive states until stable patterns or oscillating patterns emerge.<br><br>You can use the buttons to start and the stop the generation, initialize the grid to a random seed, and clear the grid (all cells are 'dead'). You can also click on individual cells to manually change the cells from their previous state!<br><br>I have included the game as an embedded codepen so the code can be easily seen.</p>
+							
 
 							<p class="codepen" data-height="800" data-theme-id="0" data-default-tab="js,result" data-user="dashu19" data-slug-hash="dLRXJG" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Conway's Game of Life">
   							<span>See the Pen <a href="https://codepen.io/dashu19/pen/dLRXJG/">
