@@ -141,10 +141,10 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
       React.createElement("div", null,
       this.createBoard(),
       React.createElement("table", { className: "gamecontrols" },
-      React.createElement("button", { className: "gamecontrolbutton", onClick: () => this.startGen() }, "Start"),
-      React.createElement("button", { className: "gamecontrolbutton", onClick: () => this.stopGen() }, "Stop"),
-      React.createElement("button", { className: "gamecontrolbutton", onClick: () => this.seedRandom() }, "Randomize"),
-      React.createElement("button", { className: "gamecontrolbutton", onClick: () => this.seedBlank() }, "Clear"))));
+      React.createElement("button", { class: "button small",  onClick: () => this.startGen() }, "Start"),
+      React.createElement("button", { class: "button small",  onClick: () => this.stopGen() }, "Stop"),
+      React.createElement("button", { class: "button small",  onClick: () => this.seedRandom() }, "Randomize"),
+      React.createElement("button", { class: "button small",  onClick: () => this.seedBlank() }, "Clear"))));
 
 
 
